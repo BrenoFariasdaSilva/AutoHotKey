@@ -8,7 +8,8 @@
   
 ---
 
-Project-Description.
+Welcome to the [AutoHotKey.](https://github.com/BrenoFariasDaSilva/AutoHotKey.git) repository. It stores a collection of my custom AutoHotKey scripts for automating various tasks, including browser automation, game macros, and more.
+This repository features a variety of AutoHotKey (AHK) scripts designed for improving productivity across multiple domains, such as web browsing, gaming, and desktop automation..
   
 ---
 
