@@ -9,7 +9,6 @@
 ---
 
 Welcome to the [AutoHotKey.](https://github.com/BrenoFariasDaSilva/AutoHotKey.git) repository. It stores a collection of my custom AutoHotKey scripts for automating various tasks, including browser automation, game macros, and more.
-This repository features a variety of AutoHotKey (AHK) scripts designed for improving productivity across multiple domains, such as web browsing, gaming, and desktop automation..
   
 ---
 
@@ -54,7 +53,7 @@ This repository features a variety of AutoHotKey (AHK) scripts designed for impr
 
 ## Introduction
 
-Detailed project description.
+This repository features a variety of AutoHotKey[https://www.autohotkey.com] (AHK) scripts designed for improving productivity across multiple domains, such as web browsing, gaming, and desktop automation. The scripts are written in the AutoHotKey scripting language, which is a powerful and easy-to-learn scripting language for Windows that allows users to automate repetitive tasks, create custom keyboard shortcuts, and more.
 
 ## Requirements
 
