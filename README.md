@@ -37,6 +37,8 @@ Welcome to the [AutoHotKey.](https://github.com/BrenoFariasDaSilva/AutoHotKey.gi
 - [AutoHotKey. ](#autohotkey-)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
+    - [How AutoHotkey Works](#how-autohotkey-works)
+    - [Versions: AHK v1 vs AHK v2 (Important Compatibility Note)](#versions-ahk-v1-vs-ahk-v2-important-compatibility-note)
   - [Requirements](#requirements)
   - [Setup](#setup)
     - [Clone the repository](#clone-the-repository)
@@ -50,7 +52,27 @@ Welcome to the [AutoHotKey.](https://github.com/BrenoFariasDaSilva/AutoHotKey.gi
 
 ## Introduction
 
-This repository features a variety of AutoHotKey[https://www.autohotkey.com] (AHK) scripts designed for improving productivity across multiple domains, such as web browsing, gaming, and desktop automation. The scripts are written in the AutoHotKey scripting language, which is a powerful and easy-to-learn scripting language for Windows that allows users to automate repetitive tasks, create custom keyboard shortcuts, and more.
+This repository contains a collection of **AutoHotkey** ([AutoHotkey Official Website](https://www.autohotkey.com)) scripts aimed at enhancing productivity in various areas, including web browsing, gaming, and desktop automation. 
+
+**AutoHotkey (AHK)** is a flexible and powerful scripting language for **Windows**, designed to simplify the automation of repetitive tasks and the creation of custom keyboard shortcuts. AHK allows users to streamline processes like filling forms, remapping keys, managing windows, and automating complex workflows, making it an essential tool for users looking to improve efficiency.
+
+### How AutoHotkey Works
+
+AutoHotkey scripts are typically saved with the **.ahk** file extension and executed by the AutoHotkey interpreter. Once a script is running, it monitors your system for specific keyboard and mouse inputs (or other events) and reacts according to the instructions within the script. For instance, it can send keystrokes, automate mouse clicks, or even execute more complex logic to interact with applications.
+
+The script structure consists of:
+- **Hotkeys:** Bindings that trigger certain actions when specific keys or key combinations are pressed.
+- **Hotstrings:** Automatic text replacements that expand shortcuts into full phrases.
+- **Control Flow:** Conditional logic, loops, and functions to create powerful automation routines.
+
+### Versions: AHK v1 vs AHK v2 (Important Compatibility Note)
+
+As of the writing of this README, AutoHotkey has **two major versions**: **AHK v1** and **AHK v2**. 
+
+- **AHK v1** is the older version, widely used and with extensive community support.
+- **AHK v2** is the newer version, featuring a cleaner and more structured syntax that improves the language's readability and maintainability.
+
+However, **these versions are **incompatible**, which means that scripts written for AHK v1 will not work with the AHK v2 interpreter without modification, and vice versa**. This is important to keep in mind when learning AutoHotkey or writing your own scripts. Make sure you are using the correct version of the interpreter that matches the script's syntax. If you’re unsure, check which version a script is designed for, as running a v1 script in v2 will cause errors, and the same is true the other way around.
 
 ## Requirements
 
