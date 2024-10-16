@@ -41,8 +41,6 @@ Welcome to the [AutoHotKey.](https://github.com/BrenoFariasDaSilva/AutoHotKey.gi
   - [Setup](#setup)
     - [Clone the repository](#clone-the-repository)
   - [Installation:](#installation)
-  - [Run Programing Language Code:](#run-programing-language-code)
-    - [Dependencies](#dependencies)
   - [Usage](#usage)
   - [Contributing](#contributing)
   - [Collaborators](#collaborators)
@@ -89,19 +87,6 @@ cd AutoHotKey
     chmod +x install.sh
     sudo ./install.sh
     ```  
-
-## Run Programing Language Code:
-```bash
-# Command here 
-```
-
-### Dependencies
-
-1. Install the project dependencies with the following command:
-
-```bash
-make dependencies
-```
 
 ## Usage
 
