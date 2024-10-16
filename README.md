@@ -46,14 +46,12 @@ Project-Description.
     - [Dataset - Optional](#dataset---optional)
   - [Usage](#usage)
   - [Results - Optional](#results---optional)
-  - [How to Cite?](#how-to-cite)
   - [Contributing](#contributing)
   - [Collaborators](#collaborators)
   - [License](#license)
     - [Apache License 2.0](#apache-license-20)
     - [Creative Commons Zero v1.0 Universal (CC0 1.0)](#creative-commons-zero-v10-universal-cc0-10)
     - [MIT License](#mit-license)
-
 
 ## Introduction
 
@@ -126,26 +124,6 @@ make run
 ## Results - Optional
 
 Discuss the results obtained in the project.
-
-## How to Cite?
-
-If you use the Repository-Name in your research, please cite it using the following BibTeX entry:
-
-```
-@misc{softwareRepository-Name:2024,
-  title = {Repository-Name: Project-Description},
-  author = {Breno Farias da Silva},
-  year = {2024},
-  howpublished = {https://github.com/BrenoFariasdaSilva/Repository-Name},
-  note = {Accessed on September 11, 2024}
-}
-```
-
-Additionally, a `main.bib` file is available in the root directory of this repository, in which contains the BibTeX entry for this project.
-
-If you find this repository valuable, please don't forget to give it a ⭐ to show your support! Contributions are highly encouraged, whether by creating issues for feedback or submitting pull requests (PRs) to improve the project. For details on how to contribute, please refer to the [Contributing](#contributing) section below.
-
-Thank you for your support and for recognizing the contribution of this tool to your work!
 
 ## Contributing
 
