@@ -19,6 +19,11 @@ F4:: {
     return
 }
 
+; Helper function to remove all whitespace from a string
+RemoveWhitespace(value) {
+    return StrReplace(value, " ")
+}
+
 ; Timer function that performs the replacements
 TypeAndClear() {
 	global Toggle, TabsCount ; Use the global Toggle and TabsCount variables
@@ -36,7 +41,44 @@ TypeAndClear() {
 				"[VITIMA]", "Adrian Blackwood"
 			)
 
-			; Loop through each key-value pair in the dictionary
+			; First, handle the search and replace for keys with "@" suffix
+			for key, value in pairs {
+				; Add "@" to the key (suffix)
+				at_key := key "@"
+
+				; Remove whitespaces from the value
+				whitespace_removed_value := RemoveWhitespace(value)
+
+				; Press Escape to clear any existing search
+				Send("{Esc}")
+				Sleep 500 ; Wait for escape action
+
+				; Control + F to search
+				Send("^f")
+				Sleep 500 ; Wait for the search bar to appear
+
+				; Type the "@"-suffixed key (what you're searching for)
+				SendInput(at_key)
+				Sleep 500
+
+				; Press Tab three times to move focus to the replacement field
+				Send("{Tab 3}")
+				Sleep 500
+
+				; Type the whitespace-removed value (the replacement)
+				SendInput(whitespace_removed_value)
+				Sleep 500
+
+				; Press Tab two times to move focus to the replace button (if needed)
+				Send("{Tab 2}")
+				Sleep 500
+
+				; Press Enter to confirm the replacement
+				Send("{Enter}")
+				Sleep 500
+			}
+
+			; After "@" replacements, perform normal replacements
 			for key, value in pairs {
 				; Press Escape to clear any existing search
 				Send("{Esc}")
