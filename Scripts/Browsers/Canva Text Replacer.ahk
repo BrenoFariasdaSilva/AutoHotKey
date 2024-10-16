@@ -123,3 +123,19 @@ TypeAndClear() {
 	}
 }
 return
+
+; Ensure the script only works in supported browsers
+
+#IfWinActive ahk_exe msedge.exe ; Microsoft Edge
+	F4:: ToggleScript()
+
+#IfWinActive ahk_exe chrome.exe ; Google Chrome
+	F4:: ToggleScript()
+
+#IfWinActive ahk_exe firefox.exe ; Mozilla Firefox
+	F4:: ToggleScript()
+
+#IfWinActive ahk_exe opera.exe ; Opera
+	F4:: ToggleScript()
+
+#If ; End conditional hotkeys
