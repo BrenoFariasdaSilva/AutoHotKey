@@ -26,14 +26,14 @@ TypeAndClear() {
 		Loop TabsCount { ; Use the TabsCount constant here
 			; Define the dictionary of search-and-replace pairs
 			pairs := Map(
-				"[SUSPEITO 1]", "Eduarda Neto",
-				"[SUSPEITO 2]", "Mafalda Carvalho",
-				"[SUSPEITO 3]", "Guilherme Costa",
-				"[SUSPEITO 4]", "-",
-				"[SUSPEITO 5]", "Constança Dionísio",
-				"[SUSPEITO 6]", "Vera Dominguez",
-				"[SUSPEITO 7]", "-",
-				"[VITIMA]", "Rafaela Florêncio"
+				"[SUSPEITO 1]", "Elena Blackwood",
+				"[SUSPEITO 2]", "Isabella Moreau",
+				"[SUSPEITO 3]", "Liam Walsh",
+				"[SUSPEITO 4]", "Marco Savelli",
+				"[SUSPEITO 5]", "Rafael Costa",
+				"[SUSPEITO 6]", "Luca Nikoli",
+				"[SUSPEITO 7]", "Markus Nkosi",
+				"[VITIMA]", "Adrian Blackwood"
 			)
 
 			; Loop through each key-value pair in the dictionary
