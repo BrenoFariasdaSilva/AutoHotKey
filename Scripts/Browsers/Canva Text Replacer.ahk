@@ -26,6 +26,7 @@ ToggleScript(*) {
 		SetTimer(TypeAndClear, 2000) ; Start the timer
 	} else {
 		SetTimer(TypeAndClear, 0) ; Stop the timer
+		MsgBox("Script Stopped Executing!") ; Optional: Notify that the script has stopped
 	}
 }
 
