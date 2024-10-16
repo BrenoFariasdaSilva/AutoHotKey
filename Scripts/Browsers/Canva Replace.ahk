@@ -1,5 +1,6 @@
 #Requires AutoHotkey v2.0+
 Toggle := false ; Initialize toggle state
+TabsCount := 10 ; Define the number of tabs to process (you can change this value as needed)
 
 ; Function to toggle the replacement process
 ToggleScript() {
@@ -20,9 +21,9 @@ F4:: {
 
 ; Timer function that performs the replacements
 TypeAndClear() {
-	global Toggle ; Use the global Toggle variable
+	global Toggle, TabsCount ; Use the global Toggle and TabsCount variables
 	if (Toggle) {
-		Loop 10 {
+		Loop TabsCount { ; Use the TabsCount constant here
 			; Define the dictionary of search-and-replace pairs
 			pairs := Map(
 				"[SUSPEITO 1]", "Eduarda Neto",
@@ -74,7 +75,7 @@ TypeAndClear() {
 			Sleep 2000 ; Wait for 2 seconds before starting replacements again
 		}
 
-		MsgBox("All 10 tabs processed!") ; Show a message box after all 10 loops
+		MsgBox("All " TabsCount " tabs processed!") ; Show a message box after all loops
 		Toggle := false ; Automatically turn off after finishing
 		SetTimer(TypeAndClear, 0) ; Stop the timer
 	}
