@@ -126,16 +126,16 @@ return
 
 ; Ensure the script only works in supported browsers
 
-#IfWinActive ahk_exe msedge.exe ; Microsoft Edge
-	F4:: ToggleScript()
+HotIfWinActive("ahk_exe msedge.exe") ; Microsoft Edge
+Hotkey("F4", ToggleScript)
 
-#IfWinActive ahk_exe chrome.exe ; Google Chrome
-	F4:: ToggleScript()
+HotIfWinActive("ahk_exe chrome.exe") ; Google Chrome
+Hotkey("F4", ToggleScript)
 
-#IfWinActive ahk_exe firefox.exe ; Mozilla Firefox
-	F4:: ToggleScript()
+HotIfWinActive("ahk_exe firefox.exe") ; Mozilla Firefox
+Hotkey("F4", ToggleScript)
 
-#IfWinActive ahk_exe opera.exe ; Opera
-	F4:: ToggleScript()
+HotIfWinActive("ahk_exe opera.exe") ; Opera
+Hotkey("F4", ToggleScript)
 
-#If ; End conditional hotkeys
+HotIfWinActive("") ; End conditional hotkeys, remove context sensitivity
