@@ -91,11 +91,7 @@ cd AutoHotKey
 
 ## Usage
 
-In order to run the project, run the following command:
-
-```bash
-make run
-```
+In order to run a script, you need to have the AutoHotKey interpreter installed on your system. Once you have AutoHotKey installed, you can run any script by double-clicking on the script file or by right-clicking on the script file and selecting "Run Script" from the context menu.
 
 ## Contributing
 
