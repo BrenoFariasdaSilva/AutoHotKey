@@ -19,7 +19,7 @@ Hotkey("F4", ToggleScript)
 HotIfWinActive()
 
 ; Function to toggle the replacement process
-ToggleScript() {
+ToggleScript(*) {
 	global Toggle ; Use the global Toggle variable
 	Toggle := !Toggle ; Toggle the state
 	if (Toggle) {
