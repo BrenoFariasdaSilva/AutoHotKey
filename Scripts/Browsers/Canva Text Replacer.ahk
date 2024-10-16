@@ -4,24 +4,24 @@ TabsCount := 10 ; Define the number of tabs to process (you can change this valu
 
 ; Function to toggle the replacement process
 ToggleScript() {
-    global Toggle ; Use the global Toggle variable
-    Toggle := !Toggle ; Toggle the state
-    if (Toggle) {
-        SetTimer(TypeAndClear, 2000) ; Start the timer
-    } else {
-        SetTimer(TypeAndClear, 0) ; Stop the timer
-    }
+	global Toggle ; Use the global Toggle variable
+   Toggle := !Toggle ; Toggle the state
+	if (Toggle) {
+		SetTimer(TypeAndClear, 2000) ; Start the timer
+	} else {
+		SetTimer(TypeAndClear, 0) ; Stop the timer
+	}
 }
 
 ; F4 to start/stop the replacement process
 F4:: {
-    ToggleScript() ; Call the function to toggle the script
-    return
+	ToggleScript() ; Call the function to toggle the script
+	return
 }
 
 ; Helper function to remove all whitespace from a string
 RemoveWhitespace(value) {
-    return StrReplace(value, " ")
+	return StrReplace(value, " ")
 }
 
 ; Timer function that performs the replacements
