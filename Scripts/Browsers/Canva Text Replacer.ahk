@@ -2,21 +2,30 @@
 Toggle := false ; Initialize toggle state
 TabsCount := 10 ; Define the number of tabs to process (you can change this value as needed)
 
+; Auto-execute section: Set up context-sensitive hotkeys
+HotIfWinActive("ahk_exe msedge.exe") ; Microsoft Edge
+Hotkey("F4", ToggleScript)
+
+HotIfWinActive("ahk_exe chrome.exe") ; Google Chrome
+Hotkey("F4", ToggleScript)
+
+HotIfWinActive("ahk_exe firefox.exe") ; Mozilla Firefox
+Hotkey("F4", ToggleScript)
+
+HotIfWinActive("ahk_exe opera.exe") ; Opera
+Hotkey("F4", ToggleScript)
+
+HotIf() ; End context-sensitive hotkeys to allow further global hotkeys
+
 ; Function to toggle the replacement process
 ToggleScript() {
 	global Toggle ; Use the global Toggle variable
-   Toggle := !Toggle ; Toggle the state
+	Toggle := !Toggle ; Toggle the state
 	if (Toggle) {
 		SetTimer(TypeAndClear, 2000) ; Start the timer
 	} else {
 		SetTimer(TypeAndClear, 0) ; Stop the timer
 	}
-}
-
-; F4 to start/stop the replacement process
-F4:: {
-	ToggleScript() ; Call the function to toggle the script
-	return
 }
 
 ; Helper function to remove all whitespace from a string
@@ -122,20 +131,6 @@ TypeAndClear() {
 		SetTimer(TypeAndClear, 0) ; Stop the timer
 	}
 }
-return
 
-; Ensure the script only works in supported browsers
-
-HotIfWinActive("ahk_exe msedge.exe") ; Microsoft Edge
-Hotkey("F4", ToggleScript)
-
-HotIfWinActive("ahk_exe chrome.exe") ; Google Chrome
-Hotkey("F4", ToggleScript)
-
-HotIfWinActive("ahk_exe firefox.exe") ; Mozilla Firefox
-Hotkey("F4", ToggleScript)
-
-HotIfWinActive("ahk_exe opera.exe") ; Opera
-Hotkey("F4", ToggleScript)
-
-HotIfWinActive("") ; End conditional hotkeys, remove context sensitivity
+; Return to stop further execution
+Return
