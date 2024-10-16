@@ -1,6 +1,6 @@
 <div align="center">
   
-# [AutoHotKey.](https://github.com/BrenoFariasDaSilva/AutoHotKey.git) <img src="Icon-Image-URL"  width="3%" height="3%">
+# [AutoHotKey.](https://github.com/BrenoFariasDaSilva/AutoHotKey.git) <img src="https://github.com/BrenoFariasdaSilva/AutoHotKey/blob/main/.assets/Icons/Bash.svg"  width="3%" height="3%">
 
 </div>
 
