@@ -57,7 +57,7 @@ This repository features a variety of AutoHotKey[https://www.autohotkey.com] (AH
 
 ## Requirements
 
-Bullet points of the requirements.
+To run any of the scripts in this repository, you will need to have AutoHotKey installed on your Windows machine. AutoHotKey is a free, open-source scripting language for Windows that allows users to create custom scripts for automating tasks, remapping keys, and creating custom keyboard shortcuts. You can download AutoHotKey from the official website at [https://www.autohotkey.com](https://www.autohotkey.com).
 
 ## Setup
 
