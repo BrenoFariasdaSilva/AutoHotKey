@@ -15,7 +15,8 @@ Hotkey("F4", ToggleScript)
 HotIfWinActive("ahk_exe opera.exe") ; Opera
 Hotkey("F4", ToggleScript)
 
-HotIf() ; End context-sensitive hotkeys to allow further global hotkeys
+; Reset HotIfWinActive so it applies globally after these two
+HotIfWinActive()
 
 ; Function to toggle the replacement process
 ToggleScript() {
