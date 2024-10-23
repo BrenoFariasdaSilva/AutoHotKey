@@ -62,15 +62,15 @@ TypeAndClear() {
 
 				; Press Escape to clear any existing search
 				Send("{Esc}")
-				Sleep 1500 ; Wait for escape action
+				Sleep 1000 ; Wait for escape action
 
 				; Control + F to search
 				Send("^f")
-				Sleep 1500 ; Wait for the search bar to appear
+				Sleep 1000 ; Wait for the search bar to appear
 
 				; Type the "@"-suffixed key (what you're searching for)
 				SendInput(at_key)
-				Sleep 1500
+				Sleep 1000
 
 				; Press Tab three times to move focus to the replacement field
 				Send("{Tab}")
@@ -82,7 +82,7 @@ TypeAndClear() {
 
 				; Type the whitespace-removed value (the replacement)
 				SendInput(whitespace_removed_value)
-				Sleep 1500
+				Sleep 1000
 
 				; Press Tab two times to move focus to the replace button (if needed)
 				Send("{Tab}")
@@ -92,22 +92,22 @@ TypeAndClear() {
 
 				; Press Enter to confirm the replacement
 				Send("{Enter}")
-				Sleep 1500
+				Sleep 1000
 			}
 
 			; After "@" replacements, perform normal replacements
 			for key, value in pairs {
 				; Press Escape to clear any existing search
 				Send("{Esc}")
-				Sleep 1500 ; Wait for escape action
+				Sleep 1000 ; Wait for escape action
 
 				; Control + F to search
 				Send("^f")
-				Sleep 1500 ; Wait for the search bar to appear
+				Sleep 1000 ; Wait for the search bar to appear
 
 				; Type the current key (what you're searching for)
 				SendInput(key)
-				Sleep 1500
+				Sleep 1000
 
 				; Press Tab three times to move focus to the replacement field
 				Send("{Tab}")
@@ -119,7 +119,7 @@ TypeAndClear() {
 
 				; Type the current value (the replacement)
 				SendInput(value)
-				Sleep 1500
+				Sleep 1000
 
 				; Press Tab two times to move focus to the replace button (if needed)
 				Send("{Tab}")
@@ -129,7 +129,7 @@ TypeAndClear() {
 
 				; Press Enter to confirm the replacement
 				Send("{Enter}")
-				Sleep 1500
+				Sleep 1000
 			}
 
 			; Show a message box after one replacement cycle
