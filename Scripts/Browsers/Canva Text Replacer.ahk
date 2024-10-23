@@ -134,7 +134,10 @@ TypeAndClear() {
 
 			; Control + Tab to switch to the next browser tab
 			Sleep 1000
-			Send("^Tab")
+			Send("{Ctrl down}")
+			Send("{Tab}")
+			Sleep 500 ; Give some time for the tab switch to register
+			Send("{Ctrl up}") ; Release the Control key
 			Sleep 2000 ; Wait for 2 seconds before starting replacements again
 		}
 
