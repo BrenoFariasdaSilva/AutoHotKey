@@ -62,62 +62,74 @@ TypeAndClear() {
 
 				; Press Escape to clear any existing search
 				Send("{Esc}")
-				Sleep 500 ; Wait for escape action
+				Sleep 1500 ; Wait for escape action
 
 				; Control + F to search
 				Send("^f")
-				Sleep 500 ; Wait for the search bar to appear
+				Sleep 1500 ; Wait for the search bar to appear
 
 				; Type the "@"-suffixed key (what you're searching for)
 				SendInput(at_key)
-				Sleep 500
+				Sleep 1500
 
 				; Press Tab three times to move focus to the replacement field
-				Send("{Tab 3}")
+				Send("{Tab}")
+				Sleep 500
+				Send("{Tab}")
+				Sleep 500
+				Send("{Tab}")
 				Sleep 500
 
 				; Type the whitespace-removed value (the replacement)
 				SendInput(whitespace_removed_value)
-				Sleep 500
+				Sleep 1500
 
 				; Press Tab two times to move focus to the replace button (if needed)
-				Send("{Tab 2}")
+				Send("{Tab}")
+				Sleep 500
+				Send("{Tab}")
 				Sleep 500
 
 				; Press Enter to confirm the replacement
 				Send("{Enter}")
-				Sleep 500
+				Sleep 1500
 			}
 
 			; After "@" replacements, perform normal replacements
 			for key, value in pairs {
 				; Press Escape to clear any existing search
 				Send("{Esc}")
-				Sleep 500 ; Wait for escape action
+				Sleep 1500 ; Wait for escape action
 
 				; Control + F to search
 				Send("^f")
-				Sleep 500 ; Wait for the search bar to appear
+				Sleep 1500 ; Wait for the search bar to appear
 
 				; Type the current key (what you're searching for)
 				SendInput(key)
-				Sleep 500
+				Sleep 1500
 
 				; Press Tab three times to move focus to the replacement field
-				Send("{Tab 3}")
+				Send("{Tab}")
+				Sleep 500
+				Send("{Tab}")
+				Sleep 500
+				Send("{Tab}")
 				Sleep 500
 
 				; Type the current value (the replacement)
 				SendInput(value)
-				Sleep 500
+				Sleep 1500
 
 				; Press Tab two times to move focus to the replace button (if needed)
-				Send("{Tab 2}")
+				Send("{Tab}")
+				Sleep 500
+				Send("{Tab}")
 				Sleep 500
 
 				; Press Enter to confirm the replacement
 				Send("{Enter}")
-				Sleep 500
+				Sleep 1500
 			}
 
 			; Show a message box after one replacement cycle
