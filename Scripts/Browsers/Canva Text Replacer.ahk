@@ -136,6 +136,7 @@ TypeAndClear() {
 			MsgBox("All replacements for this tab finished!")
 
 			; Control + Tab to switch to the next browser tab
+			Sleep 1000
 			Send("^Tab")
 			Sleep 2000 ; Wait for 2 seconds before starting replacements again
 		}
