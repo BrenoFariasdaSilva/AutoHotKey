@@ -112,7 +112,7 @@ TypeAndClear() {
 				; Press Tab three times to move focus to the replacement field
 				Send("{Tab}")
 				Sleep 300
-				Send("Tab}")
+				Send("{Tab}")
 				Sleep 300
 				Send("{Tab}")
 				Sleep 300
