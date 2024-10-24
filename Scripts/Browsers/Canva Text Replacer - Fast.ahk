@@ -133,7 +133,7 @@ TypeAndClear() {
 			}
 
 			; Control + Tab to switch to the next browser tab
-			Sleep 1000
+			Sleep 500
 			Send("{Ctrl down}")
 			Send("{Tab}")
 			Sleep 500 ; Give some time for the tab switch to register

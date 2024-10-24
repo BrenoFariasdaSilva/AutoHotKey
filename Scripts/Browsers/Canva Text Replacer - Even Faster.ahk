@@ -62,11 +62,11 @@ TypeAndClear() {
 
 				; Press Escape to clear any existing search
 				Send("{Esc}")
-				Sleep 200 ; Wait for escape action
+				Sleep 300 ; Wait for escape action
 
 				; Control + F to search
 				Send("^f")
-				Sleep 200 ; Wait for the search bar to appear
+				Sleep 300 ; Wait for the search bar to appear
 
 				; Type the "@"-suffixed key (what you're searching for)
 				SendInput(at_key)
@@ -74,11 +74,11 @@ TypeAndClear() {
 
 				; Press Tab three times to move focus to the replacement field
 				Send("{Tab}")
-				Sleep 200
+				Sleep 300
 				Send("{Tab}")
-				Sleep 200
+				Sleep 300
 				Send("{Tab}")
-				Sleep 200
+				Sleep 300
 
 				; Type the whitespace-removed value (the replacement)
 				SendInput(whitespace_removed_value)
@@ -86,9 +86,9 @@ TypeAndClear() {
 
 				; Press Tab two times to move focus to the replace button (if needed)
 				Send("{Tab}")
-				Sleep 200
+				Sleep 300
 				Send("{Tab}")
-				Sleep 200
+				Sleep 300
 
 				; Press Enter to confirm the replacement
 				Send("{Enter}")
@@ -99,23 +99,23 @@ TypeAndClear() {
 			for key, value in pairs {
 				; Press Escape to clear any existing search
 				Send("{Esc}")
-				Sleep 200 ; Wait for escape action
+				Sleep 300 ; Wait for escape action
 
 				; Control + F to search
 				Send("^f")
-				Sleep 200 ; Wait for the search bar to appear
+				Sleep 300 ; Wait for the search bar to appear
 
 				; Type the current key (what you're searching for)
 				SendInput(key)
-				Sleep 200
+				Sleep 300
 
 				; Press Tab three times to move focus to the replacement field
 				Send("{Tab}")
-				Sleep 200
+				Sleep 300
 				Send("Tab}")
-				Sleep 200
+				Sleep 300
 				Send("{Tab}")
-				Sleep 200
+				Sleep 300
 
 				; Type the current value (the replacement)
 				SendInput(value)
@@ -123,13 +123,13 @@ TypeAndClear() {
 
 				; Press Tab two times to move focus to the replace button (if needed)
 				Send("{Tab}")
-				Sleep 200
+				Sleep 300
 				Send("{Tab}")
-				Sleep 200
+				Sleep 300
 
 				; Press Enter to confirm the replacement
 				Send("{Enter}")
-				Sleep 200
+				Sleep 300
 			}
 
 			; Control + Tab to switch to the next browser tab
