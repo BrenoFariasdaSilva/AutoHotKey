@@ -58,7 +58,7 @@ TypeAndClear() {
 				at_key := key "@"
 
 				; Remove whitespaces from the value
-				whitespace_removed_value := RemoveWhitespace(value)
+				whitespace_removed_value := RemoveWhitespace(value) "@"
 
 				; Press Escape to clear any existing search
 				Send("{Esc}")
