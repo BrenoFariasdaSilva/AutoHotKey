@@ -48,7 +48,7 @@ TypeAndClear() {
 				"[Suspeito 4]", "Adam Pereira",
 				"[Suspeito 5]", "Joseph Lopez",
 				"[Suspeito 6]", "Marko Vidmar",
-				"[Suspeito 7]", "Lucía Navarro",
+				"[Suspeito 7]", "Lucia Navarro",
 				"[Vitima_Passado]", "Sara Dias",
 				"[Vitima]", "Emily Silva"
 			)
