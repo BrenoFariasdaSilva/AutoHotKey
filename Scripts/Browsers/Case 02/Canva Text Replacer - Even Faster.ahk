@@ -133,6 +133,10 @@ TypeAndClear() {
 				Sleep 400
 			}
 
+			; Perform F5 to reload the page
+			Send("{F5}")
+			Sleep 1000 ; Wait for the page to reload
+
 			; Control + Tab to switch to the next browser tab
 			Send("{Ctrl down}")
 			Send("{Tab}")
