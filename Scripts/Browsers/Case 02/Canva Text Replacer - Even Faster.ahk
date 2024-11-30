@@ -32,7 +32,7 @@ ToggleScript(*) {
 
 ; Helper function to remove all whitespace from a string
 RemoveWhitespace(value) {
-	return StrReplace(value, " ")
+	return StrReplace(OldStr, A_Space, "")
 }
 
 ; Timer function that performs the replacements
