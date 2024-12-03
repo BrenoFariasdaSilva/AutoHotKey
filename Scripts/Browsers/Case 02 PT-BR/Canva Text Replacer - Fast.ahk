@@ -47,7 +47,7 @@ TypeAndClear() {
 				"[Suspeito 3]", "Juliana Oliveira",
 				"[Suspeito 4]", "Thiago Ramos",
 				"[Suspeito 5]", "Rafael Nunes",
-				"[Suspeito 6]", "Lucas Faria",
+				"[Suspeito 6]", "Lucas Farias",
 				"[Suspeito 7]", "Daniela Carvalho",
 				"[Vitima_Passado]", "Larissa Mendes",
 				"[Vitima]", "Isabela Santos"
