@@ -42,15 +42,15 @@ TypeAndClear() {
 		Loop TabsCount { ; Use the TabsCount constant here
 			; Define the dictionary of search-and-replace pairs
 			pairs := Map(
-				"Jason Marques", "[Suspeito 1]",
-				"Mike Costa", "[Suspeito 2]",
-				"Laura Rodrigues", "[Suspeito 3]",
-				"Adam Pereira", "[Suspeito 4]",
-				"Joseph Lopez", "[Suspeito 5]",
-				"Marko Vidmar", "[Suspeito 6]",
-				"Lucia Navarro", "[Suspeito 7]",
-				"Sara Dias", "[Vitima_Passado]",
-				"Emily Silva", "[Vitima]"
+				"[Suspeito 1]": "Pedro Almeida",
+				"[Suspeito 2]": "Bruno Castro",
+				"[Suspeito 3]": "Juliana Oliveira",
+				"[Suspeito 4]": "Thiago Ramos",
+				"[Suspeito 5]": "Rafael Nunes",
+				"[Suspeito 6]": "Lucas Faria",
+				"[Suspeito 7]": "Daniela Carvalho",
+				"[Vitima_Passado]": "Larissa Mendes",
+				"[Vitima]": "Isabela Santos"
 			)
 
 			; First, handle the search and replace for keys with "@" suffix
