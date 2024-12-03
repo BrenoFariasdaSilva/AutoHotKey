@@ -1,6 +1,6 @@
 #Requires AutoHotkey v2.0+
 Toggle := false ; Initialize toggle state
-TabsCount := 16 ; Define the number of tabs to process (you can change this value as needed)
+TabsCount := 17 ; Define the number of tabs to process (you can change this value as needed)
 
 ; Auto-execute section: Set up context-sensitive hotkeys
 HotIfWinActive("ahk_exe msedge.exe") ; Microsoft Edge
