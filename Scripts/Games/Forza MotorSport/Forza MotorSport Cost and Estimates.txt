@@ -1,0 +1,28 @@
+FORZA MOTORSPORT: COMPLETE CAR COLLECTION GRIND GUIDE
+Car Collection Spreadsheet (for detailed costs): https://docs.google.com/spreadsheets/d/1ZO5HqJW_F3jBEDn9kL_YxitJs8nijTiDTxuXUHLAP9o/edit
+
+CREDIT GOAL CALCULATION
+GOAL: 150,000,000 Credits (Rounded up from ~135M to account for upgrades, livery costs, or future car additions.)
+
+1) AFK Earnings Rate (Example Farm)
+
+50,000 credits every 30 minutes
+
+-> 100,000 credits per hour
+
+2) Time per 1 Million Credits
+
+1,000,000 / 100,000 = 10 hours
+
+3) Total Time to Reach Goal (150,000,000 Credits)
+
+150,000,000 / 100,000 = 1,500 hours (1500/24 = 62.5 days)
+
+FINAL RESULTS SUMMARY
+Time per 1 Million Credits: 10 hours
+
+Total Hours Needed: 1,500 hours
+
+Total Days Needed: ≈ 62.5 full days of nonstop AFK
+
+NOTE: AFK FARM SETUP GUIDE IN "Forza MotorSport AFK Farm.txt"

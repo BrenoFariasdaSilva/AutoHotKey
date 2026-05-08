@@ -1,0 +1,52 @@
+Forza Motorsport – AFK Money & XP Farm Guide: https://www.youtube.com/watch?v=z02Wun9S8WA
+REMINDER: The Settings of the Race doesn't persist after closing the save. I suggest restarting the game at least every day to make sure Steam Syncs your save.
+
+- Mode:
+Free Play -> Quick Event
+
+- Car:
+Any car works. Payout seems tied to total race time, not car performance, so choose the cars you would like to level up to level 50.
+
+- Track:
+Select Mugello Circuit, in Full Circuit Track Layout, which gives you around 1 level per 3 laps. Read "Tracks Level.png" to see the best track
+
+: Opponents:
+Set 0 opponents.
+
+Laps:
+Choose any number. More laps = more AFK time = more money/XP.
+Example: 100 laps (For Level 0 -> 50) ≈ ~200 minutes ≈ ~ 3 hours and 20 minutes (depends on track and car).
+
+-- Difficulty Settings:
+- Set to Club Rules:
+Avoid Sport/Expert because they enable fuel/tyre simulation, which will eventually stop the car.
+
+Assists (Driving Assists -> Custom)
+
+Suggested Line: Full
+Braking: Fully Assisted
+Throttle: Assisted
+Steering: Fully Assisted
+Stability Control: On
+Traction Control: On
+Shifting: Automatic
+
+These settings make the car drive the entire track flawlessly without user input.
+
+How To AFK the Race
+
+Start the race.
+
+Put the "Forza MotorSport Auto Enter.ahk" script to run, by clicking on it and click F4 to start the script itself.
+
+Let the game complete all laps automatically.
+
+-- Rewards:
+You earn credits and car XP based on total race time.
+Longer laps/time = higher payout.
+Car choice does not matter for AFK farming.
+
+-- Summary:
+Use Free Play -> Mugello Circuit -> Full Circuit Track layout -> 0 opponents -> High Laps Count (100/150 recommended) -> Full Assists -> Club Rules to the Easiest.
+Start the race and go AFK. The car drives itself.
+Repeat as needed.
