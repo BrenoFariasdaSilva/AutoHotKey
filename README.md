@@ -24,19 +24,6 @@ Welcome to the [AutoHotKey.](https://github.com/BrenoFariasDaSilva/AutoHotKey.gi
 ![GitHub License](https://img.shields.io/github/license/BrenoFariasdaSilva/AutoHotKey)
 ![GitHub Stars](https://img.shields.io/github/stars/BrenoFariasdaSilva/AutoHotKey)
 ![wakatime](https://wakatime.com/badge/github/BrenoFariasdaSilva/AutoHotKey.svg)
-
-</div>
-
-<div align="center">
-
-![GitHub Code Size in Bytes](https://img.shields.io/github/languages/code-size/BrenoFariasdaSilva/AutoHotKey)
-![GitHub Commits](https://img.shields.io/github/commit-activity/t/BrenoFariasdaSilva/AutoHotKey/main)
-![GitHub Last Commit](https://img.shields.io/github/last-commit/BrenoFariasdaSilva/AutoHotKey)
-![GitHub Forks](https://img.shields.io/github/forks/BrenoFariasdaSilva/AutoHotKey)
-![GitHub Language Count](https://img.shields.io/github/languages/count/BrenoFariasdaSilva/AutoHotKey)
-![GitHub License](https://img.shields.io/github/license/BrenoFariasdaSilva/AutoHotKey)
-![GitHub Stars](https://img.shields.io/github/stars/BrenoFariasdaSilva/AutoHotKey)
-![wakatime](https://wakatime.com/badge/github/BrenoFariasdaSilva/AutoHotKey.svg)
 [![GitHub Contributors](https://img.shields.io/github/contributors/BrenoFariasdaSilva/AutoHotKey)](https://github.com/BrenoFariasdaSilva/AutoHotKey/graphs/contributors)
 [![GitHub Created At](https://img.shields.io/github/created-at/BrenoFariasdaSilva/AutoHotKey)](https://github.com/BrenoFariasdaSilva/AutoHotKey)
 [![GitHub Repository Size](https://img.shields.io/github/repo-size/BrenoFariasdaSilva/AutoHotKey)](https://github.com/BrenoFariasdaSilva/AutoHotKey)
@@ -48,7 +35,6 @@ Welcome to the [AutoHotKey.](https://github.com/BrenoFariasDaSilva/AutoHotKey.gi
 [![Merged PRs](https://img.shields.io/github/issues-search/BrenoFariasdaSilva/AutoHotKey?query=is%3Apr%20is%3Amerged&label=merged%20PRs&color=blue)](https://github.com/BrenoFariasdaSilva/AutoHotKey/pulls?q=is%3Apr+is%3Amerged)
 ![Language](https://img.shields.io/badge/Language-AutoHotkey-334455)
 ![Purpose](https://img.shields.io/badge/Purpose-Desktop%20Automation-3c7e70)
-
 ![Repobeats Statistics](https://repobeats.axiom.co/api/embed/629c6d571e851e43ce5e8780713f1d6588e9df87.svg)
 
 </div>
