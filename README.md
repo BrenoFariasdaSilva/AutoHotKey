@@ -26,7 +26,6 @@ Welcome to the [AutoHotKey.](https://github.com/BrenoFariasDaSilva/AutoHotKey.gi
 ![wakatime](https://wakatime.com/badge/github/BrenoFariasdaSilva/AutoHotKey.svg)
 [![GitHub Contributors](https://img.shields.io/github/contributors/BrenoFariasdaSilva/AutoHotKey)](https://github.com/BrenoFariasdaSilva/AutoHotKey/graphs/contributors)
 [![GitHub Created At](https://img.shields.io/github/created-at/BrenoFariasdaSilva/AutoHotKey)](https://github.com/BrenoFariasdaSilva/AutoHotKey)
-[![GitHub Repository Size](https://img.shields.io/github/repo-size/BrenoFariasdaSilva/AutoHotKey)](https://github.com/BrenoFariasdaSilva/AutoHotKey)
 [![Open Issues](https://img.shields.io/github/issues/BrenoFariasdaSilva/AutoHotKey)](https://github.com/BrenoFariasdaSilva/AutoHotKey/issues)
 [![Closed Issues](https://img.shields.io/github/issues-closed/BrenoFariasdaSilva/AutoHotKey)](https://github.com/BrenoFariasdaSilva/AutoHotKey/issues?q=is%3Aissue+is%3Aclosed)
 [![Open Pull Requests](https://img.shields.io/github/issues-pr/BrenoFariasdaSilva/AutoHotKey)](https://github.com/BrenoFariasdaSilva/AutoHotKey/pulls)
